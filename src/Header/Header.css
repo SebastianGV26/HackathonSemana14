@@ -1,0 +1,32 @@
+.container_nav{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 3rem 0 3rem;
+    background-color: #faf4e1;
+}
+.nav_izq img{
+    width: 150px;
+    height: 70px;
+
+}
+.nav_der ul{
+    width: 100%;
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+.nav_der ul a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 700;
+    transition: all 0.5s ease;
+}
+.nav_der ul a:hover{
+    transition: all 0.5s ease;
+    text-shadow: 1px 1px 1px #000;
+    color: #53c05c;
+}
